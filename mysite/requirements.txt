@@ -8,3 +8,6 @@ djangorestframework
 djangorestframework-gis
 gunicorn
 dj-database-url
+psycopg2-binary
+whitenoise
+asgiref
