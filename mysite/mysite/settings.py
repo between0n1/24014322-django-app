@@ -156,7 +156,7 @@ class HerokuDiscoverRunner(DiscoverRunner):
 
 # Use HerokuDiscoverRunner on Heroku CI
 if "CI" in os.environ:
-    TEST_RUNNER = "gettingstarted.settings.HerokuDiscoverRunner"
+    TEST_RUNNER = "mysite.settings.HerokuDiscoverRunner"
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
